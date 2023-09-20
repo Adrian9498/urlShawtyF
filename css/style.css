@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-custom {
+    min-height: 90vh; 
+}
+
+.container-footer {
+    min-height: 10vh; 
+}
