@@ -1,7 +1,7 @@
 async function shortUrl(){
     let url = document.getElementById('url').value;
     let simple = document.getElementById('simple_url');
-    let response = await fetch('http://localhost:3000/create',{
+    let response = await fetch('https://urlshawty-production.up.railway.app/create',{
         method: 'POST',
         headers: {
             "Content-Type": "application/json"
